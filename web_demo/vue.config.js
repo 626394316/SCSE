@@ -1,0 +1,21 @@
+module.exports = {
+    devServer:{
+        disableHostCheck:true,
+        proxy:{
+            '/llmapi':{
+                target:'http://127.0.0.1:7091/',
+                changOrigin:true,
+                pathRewrite:{
+                    'chat/llmapi':''
+                }
+            },
+            '/history':{
+                target:'http://127.0.0.1:7090/',
+                changOrigin:true,
+                pathRewrite:{
+                    'chat/history':'',
+                }
+            }
+        }
+    }
+}

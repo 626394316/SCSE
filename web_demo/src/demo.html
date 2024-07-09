@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Chat Dialog with Bot Responses</title>
+  <style>
+    #chat-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 60%;
+      margin: 20px auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      overflow: auto;
+      max-height: 500px;
+    }
+
+    .chat-output,
+    .chat-input {
+      width: 100%;
+      margin: 5px 0;
+      padding: 10px;
+      border-radius: 10px;
+      word-wrap: break-word;
+    }
+
+    .chat-output {
+      background-color: #f0f0f0;
+    }
+
+    .chat-input {
+      background-color: #d0e0f0;
+      text-align: right;
+    }
+
+    #input-form {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    #input-form input {
+      width: 80%;
+      padding: 10px;
+      margin-right: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    #input-form button {
+      padding: 10px 20px;
+      border-radius: 5px;
+      border: none;
+      background-color: #007bff;
+      color: white;
+      cursor: pointer;
+    }
+
+    #input-form button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="chat-container"></div>
+
+  <div id="input-form">
+    <input type="text" id="user-input" placeholder="Type your message here...">
+    <button onclick="submitUserInput()">Send</button>
+  </div>
+
+  <script>
+    function displayMessage(message, sender = 'bot') {
+      const chatContainer = document.getElementById('chat-container');
+      const messageDiv = document.createElement('div');
+      messageDiv.className = sender === 'bot' ? 'chat-output' : 'chat-input';
+      if (sender === 'user') {
+        messageDiv.style.textAlign = 'right';
+        messageDiv.textContent = "You: " + message;
+      } else {
+        simulateBotOutput(message, messageDiv);
+      }
+      chatContainer.appendChild(messageDiv);
+
+      // Scroll to the bottom of the chat container to show the latest message
+      chatContainer.scrollTop = chatContainer.scrollHeight;
+    }
+
+    function simulateBotOutput(message, element) {
+      let i = 0;
+      const interval = setInterval(() => {
+        if (i < message.length) {
+          element.textContent += message[i];
+          i++;
+        } else {
+          clearInterval(interval);
+        }
+      }, 50); // Adjust the speed of typing here
+    }
+
+    function submitUserInput() {
+      const userInputField = document.getElementById('user-input');
+      const userInput = userInputField.value;
+      if (userInput.trim() !== '') {
+        displayMessage(userInput, 'user');
+        userInputField.value = ''; // Clear input field
+
+        // Simulate a bot response
+        setTimeout(() => {
+          const botResponse = "Bot: That's interesting. Tell me more."; // Placeholder response
+          displayMessage(botResponse);
+        }, 1000); // Delay before bot response to simulate thinking
+      }
+    }
+  </script>
+</body>
+
+</html>

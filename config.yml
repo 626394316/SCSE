@@ -1,0 +1,20 @@
+# 心理大模型的接口地址
+emo_llm_api_path : "http://localhost:23333/v1"
+# 心理大模型的名称
+emo_llm_name : "internlm2-chat-1.8b"
+# 基座大模型的接口地址
+llm_api_path : "http://localhost:8000/v1"
+# 基座大模型的名称
+llm_name : "Internlm2_5_chat_7b_int4"
+# embedding模型的路径
+embedding_model_path : "F:/model/embeddingModel/bce-embedding-base-v1"
+# rerank模型的路径
+rerank_model_path : "F:/model/rerankerModel/bce-reranker-base_v1"
+# neo4j的url
+neo4j_url : "bolt://localhost:7687"
+# neo4j的用户名
+neo4j_username : "neo4j"
+# neo4j的密码
+neo4j_password : "123456789"
+# neo4j的数据库
+neo4j_database : "prlesson"

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/katex@0.6.0/dist/katex.min.css"
+    />
+
+    <!-- <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script> -->
+    <script>
+      window.MathJax = {
+        tex: {
+                inlineMath: [
+                    ['$', '$'],
+                    ['\\(', '\\)']
+                ], // ⾏内公式选择符
+                displayMath: [
+                    ['$$', '$$'],
+                    ['\\[', '\\]']
+                ] // 段内公式选择符
+            },
+        // loader: {load: ['ui/lazy']},
+        options: {
+          skipHtmlTags: [
+            "script",
+            "noscript",
+            "style",
+            "textarea",
+            "pre",
+            "code",
+            "a",
+          ], // 避开某些标签
+          ignoreHtmlClass: "tex2jax_ignore",
+          processHtmlClass: "tex2jax_process",
+        },
+      };
+    </script>
+    <script
+      src="https://cdn.bootcdn.net/ajax/libs/mathjax/3.2.2/es5/tex-chtml.js"
+      id="MathJax-script"
+    ></script>
+
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <noscript>
+      <strong
+        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
