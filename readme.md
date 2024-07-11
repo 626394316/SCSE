@@ -1,8 +1,6 @@
 ## SCSE 智慧校园的超级入口
 
-![image-20240706173454799](/assets/logo.png#pic_center)
-
-
+<div align=center><img src="/assets/logo.png"></div>
 
 ### 📖 项目介绍
 
