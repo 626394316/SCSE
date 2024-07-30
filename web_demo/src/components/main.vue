@@ -91,13 +91,13 @@
         >
           <div v-for="(item, index) in messages" :key="index">
             <br />
-            <div class="userChat">
-              <img src="@/imgs/用户头像.png" class="chatImg" />
+            <div class="userChat" v-show="item.question">
+              <img src="@/imgs/用户头像.png" class="chatImg_user" />
               <span>{{ item.question }}</span>
             </div>
             <br />
             <div class="botChat">
-              <img src="@/imgs/机器人.png" class="chatImg" />
+              <img src="@/imgs/机器人.png" class="chatImg_bot" />
               <Loadding
                 class="loadding"
                 v-if="loadding && index == messages.length - 1"
@@ -112,7 +112,7 @@
                   class="answer_image"
                 />
               </div>
-              <vue-markdown 
+              <vue-markdown
               v-show="!isImage(item.answer).includes('llm_img')"
               class="bot_response"
               :source="item.answer"
@@ -359,11 +359,20 @@ export default {
       if (this.$route.params.talk_id == item.talk_id) {
         return;
       }
+
       this.$router.push({
         path: `/chat/${item.talk_id}`,
       });
+
       this.messages = [];
       this.talk_id = item.talk_id
+      if(item.talk_id === "exam"){
+        console.log('aa')
+        this.messages=[{
+        question: "",
+        answer: "将地址改为 http://localhost:8080/kg 可进入模式识别学习闯关地图",
+      }];
+      }
     },
     async sendMessage() {
       if (!this.$route.params.talk_id){
@@ -394,13 +403,11 @@ export default {
         url = "llmapi/send_exam_question";
       } else if (this.$route.params.talk_id == "v") {
         url = "llmapi/send_emo_question";
-      } else if (this.$route.params.talk_id == "math") {
-        url = "llmapi/send_math_question";
       } else {
         url = "llmapi/send_question";
       }
 
-      this.timer = 0; 
+      this.timer = 0;
       EventBus.$emit("timerValue", this.timer);
       const res = await fetch(url, {
         method: "POST",
@@ -432,7 +439,7 @@ export default {
         this.messages[this.messages.length - 1].answer += str;
         //出现多次渲染的情况 使用v-html来进行处理
         this.typeset()
-        
+
         this.$nextTick(() => {
         let chatMessages = this.$refs.chatMessages;
         chatMessages.scrollTop = chatMessages.scrollHeight;
@@ -945,7 +952,13 @@ export default {
   /* padding: 6px; */
   /* width: 80%; */
 }
-.chatImg {
+.chatImg_user {
+  width: 30px;
+  height: 30px;
+  padding-right: 10px;
+}
+.chatImg_bot {
+  margin-top: 10px;
   width: 30px;
   height: 30px;
   padding-right: 10px;

@@ -1,0 +1,3427 @@
+﻿[
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 1,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "learn": "向量、矩阵的基本运算、逆、行列式、特征值、特征向量等",
+          "name": "线性代数"
+        },
+        "elementId": "1"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 0,
+            "start": 0,
+            "end": 1,
+            "type": "预备知识",
+            "properties": {
+
+            },
+            "elementId": "0",
+            "startNodeElementId": "0",
+            "endNodeElementId": "1"
+          },
+          "end": {
+            "identity": 1,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "learn": "向量、矩阵的基本运算、逆、行列式、特征值、特征向量等",
+              "name": "线性代数"
+            },
+            "elementId": "1"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 2,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "learn": "概率（先验、条件）、概率密度、随机变量和分布、数学期望、全概率和贝叶斯公式、正态分布、参数估计、假设检验",
+          "name": "概率论与数理统计"
+        },
+        "elementId": "2"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 1,
+            "start": 0,
+            "end": 2,
+            "type": "预备知识",
+            "properties": {
+
+            },
+            "elementId": "1",
+            "startNodeElementId": "0",
+            "endNodeElementId": "2"
+          },
+          "end": {
+            "identity": 2,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "learn": "概率（先验、条件）、概率密度、随机变量和分布、数学期望、全概率和贝叶斯公式、正态分布、参数估计、假设检验",
+              "name": "概率论与数理统计"
+            },
+            "elementId": "2"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 3,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "learn": "null",
+          "name": "高等数学"
+        },
+        "elementId": "3"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 2,
+            "start": 0,
+            "end": 3,
+            "type": "预备知识",
+            "properties": {
+
+            },
+            "elementId": "2",
+            "startNodeElementId": "0",
+            "endNodeElementId": "3"
+          },
+          "end": {
+            "identity": 3,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "learn": "null",
+              "name": "高等数学"
+            },
+            "elementId": "3"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 4,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "learn": "null",
+          "name": "最优化方法"
+        },
+        "elementId": "4"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 3,
+            "start": 0,
+            "end": 4,
+            "type": "预备知识",
+            "properties": {
+
+            },
+            "elementId": "3",
+            "startNodeElementId": "0",
+            "endNodeElementId": "4"
+          },
+          "end": {
+            "identity": 4,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "learn": "null",
+              "name": "最优化方法"
+            },
+            "elementId": "4"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 5,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "learn": "null",
+          "name": "信息论"
+        },
+        "elementId": "5"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 4,
+            "start": 0,
+            "end": 5,
+            "type": "预备知识",
+            "properties": {
+
+            },
+            "elementId": "4",
+            "startNodeElementId": "0",
+            "endNodeElementId": "5"
+          },
+          "end": {
+            "identity": 5,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "learn": "null",
+              "name": "信息论"
+            },
+            "elementId": "5"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 6,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "learn": "null",
+          "name": "程序设计基础"
+        },
+        "elementId": "6"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 5,
+            "start": 0,
+            "end": 6,
+            "type": "预备知识",
+            "properties": {
+
+            },
+            "elementId": "5",
+            "startNodeElementId": "0",
+            "endNodeElementId": "6"
+          },
+          "end": {
+            "identity": 6,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "learn": "null",
+              "name": "程序设计基础"
+            },
+            "elementId": "6"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 7,
+        "labels": [
+          "book"
+        ],
+        "properties": {
+          "publish": "清华大学出版社",
+          "time": "2010年",
+          "bookName": "《模式识别》（第3版)",
+          "autor": "张学工等"
+        },
+        "elementId": "7"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 6,
+            "start": 0,
+            "end": 7,
+            "type": "相关教材",
+            "properties": {
+
+            },
+            "elementId": "6",
+            "startNodeElementId": "0",
+            "endNodeElementId": "7"
+          },
+          "end": {
+            "identity": 7,
+            "labels": [
+              "book"
+            ],
+            "properties": {
+              "publish": "清华大学出版社",
+              "time": "2010年",
+              "bookName": "《模式识别》（第3版)",
+              "autor": "张学工等"
+            },
+            "elementId": "7"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 8,
+        "labels": [
+          "book"
+        ],
+        "properties": {
+          "publish": "机械工业出版社",
+          "time": "2003年",
+          "bookName": "《模式分类》（第2版）",
+          "autor": "R.O.Duda等著，李宏东等译"
+        },
+        "elementId": "8"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 7,
+            "start": 0,
+            "end": 8,
+            "type": "相关教材",
+            "properties": {
+
+            },
+            "elementId": "7",
+            "startNodeElementId": "0",
+            "endNodeElementId": "8"
+          },
+          "end": {
+            "identity": 8,
+            "labels": [
+              "book"
+            ],
+            "properties": {
+              "publish": "机械工业出版社",
+              "time": "2003年",
+              "bookName": "《模式分类》（第2版）",
+              "autor": "R.O.Duda等著，李宏东等译"
+            },
+            "elementId": "8"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 9,
+        "labels": [
+          "book"
+        ],
+        "properties": {
+          "publish": "电子工业出版社",
+          "time": "2016年",
+          "bookName": "《模式识别》（第4版）",
+          "autor": "Sergios Theodoridis著，李晶皎译"
+        },
+        "elementId": "9"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 8,
+            "start": 0,
+            "end": 9,
+            "type": "相关教材",
+            "properties": {
+
+            },
+            "elementId": "8",
+            "startNodeElementId": "0",
+            "endNodeElementId": "9"
+          },
+          "end": {
+            "identity": 9,
+            "labels": [
+              "book"
+            ],
+            "properties": {
+              "publish": "电子工业出版社",
+              "time": "2016年",
+              "bookName": "《模式识别》（第4版）",
+              "autor": "Sergios Theodoridis著，李晶皎译"
+            },
+            "elementId": "9"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 10,
+        "labels": [
+          "knowledge"
+        ],
+        "properties": {
+          "name": "类别",
+          "content": "具有某些共同特性(模式)样本的集合"
+        },
+        "elementId": "10"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 9,
+            "start": 0,
+            "end": 10,
+            "type": "基本概念",
+            "properties": {
+
+            },
+            "elementId": "9",
+            "startNodeElementId": "0",
+            "endNodeElementId": "10"
+          },
+          "end": {
+            "identity": 10,
+            "labels": [
+              "knowledge"
+            ],
+            "properties": {
+              "name": "类别",
+              "content": "具有某些共同特性(模式)样本的集合"
+            },
+            "elementId": "10"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 11,
+        "labels": [
+          "knowledge"
+        ],
+        "properties": {
+          "name": "特征提取",
+          "content": "采用映射（或变换）实现由模式测量空间向特征空间的转变或者将特征空间的维数从高维变成低维"
+        },
+        "elementId": "11"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 10,
+            "start": 0,
+            "end": 11,
+            "type": "基本概念",
+            "properties": {
+
+            },
+            "elementId": "10",
+            "startNodeElementId": "0",
+            "endNodeElementId": "11"
+          },
+          "end": {
+            "identity": 11,
+            "labels": [
+              "knowledge"
+            ],
+            "properties": {
+              "name": "特征提取",
+              "content": "采用映射（或变换）实现由模式测量空间向特征空间的转变或者将特征空间的维数从高维变成低维"
+            },
+            "elementId": "11"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 12,
+        "labels": [
+          "knowledge"
+        ],
+        "properties": {
+          "name": "特征",
+          "content": "用于描述模式性质（特性）的一种定量的概念"
+        },
+        "elementId": "12"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 11,
+            "start": 0,
+            "end": 12,
+            "type": "基本概念",
+            "properties": {
+
+            },
+            "elementId": "11",
+            "startNodeElementId": "0",
+            "endNodeElementId": "12"
+          },
+          "end": {
+            "identity": 12,
+            "labels": [
+              "knowledge"
+            ],
+            "properties": {
+              "name": "特征",
+              "content": "用于描述模式性质（特性）的一种定量的概念"
+            },
+            "elementId": "12"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 14,
+        "labels": [
+          "knowledge"
+        ],
+        "properties": {
+          "name": "特征选择",
+          "content": "从一组中挑选最有效的特征以降低维数。"
+        },
+        "elementId": "14"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 12,
+            "start": 0,
+            "end": 14,
+            "type": "基本概念",
+            "properties": {
+
+            },
+            "elementId": "12",
+            "startNodeElementId": "0",
+            "endNodeElementId": "14"
+          },
+          "end": {
+            "identity": 14,
+            "labels": [
+              "knowledge"
+            ],
+            "properties": {
+              "name": "特征选择",
+              "content": "从一组中挑选最有效的特征以降低维数。"
+            },
+            "elementId": "14"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 15,
+        "labels": [
+          "knowledge"
+        ],
+        "properties": {
+          "name": "样本",
+          "content": "研究对象的个体"
+        },
+        "elementId": "15"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 13,
+            "start": 0,
+            "end": 15,
+            "type": "基本概念",
+            "properties": {
+
+            },
+            "elementId": "13",
+            "startNodeElementId": "0",
+            "endNodeElementId": "15"
+          },
+          "end": {
+            "identity": 15,
+            "labels": [
+              "knowledge"
+            ],
+            "properties": {
+              "name": "样本",
+              "content": "研究对象的个体"
+            },
+            "elementId": "15"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 13,
+        "labels": [
+          "knowledge"
+        ],
+        "properties": {
+          "name": "模式",
+          "content": "广义地说，存在于时间和空间中可观察的物体，如果我们可以区别它们是否相同或是否相似，都可以称之为模式。模式所指的不是事物本身，而是从事物获得的信息，因此，模式往往表现为具有时间和空间分布的信息。模式的直观特性:可观察性、可区分性、相似性"
+        },
+        "elementId": "13"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 14,
+            "start": 0,
+            "end": 13,
+            "type": "基本概念",
+            "properties": {
+
+            },
+            "elementId": "14",
+            "startNodeElementId": "0",
+            "endNodeElementId": "13"
+          },
+          "end": {
+            "identity": 13,
+            "labels": [
+              "knowledge"
+            ],
+            "properties": {
+              "name": "模式",
+              "content": "广义地说，存在于时间和空间中可观察的物体，如果我们可以区别它们是否相同或是否相似，都可以称之为模式。模式所指的不是事物本身，而是从事物获得的信息，因此，模式往往表现为具有时间和空间分布的信息。模式的直观特性:可观察性、可区分性、相似性"
+            },
+            "elementId": "13"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 16,
+        "labels": [
+          "knowledge"
+        ],
+        "properties": {
+          "disadvantage": "适应性差",
+          "advantage": "直接,简单",
+          "name": "模版匹配法",
+          "content": " 首先对每个类别建立一个或多个模版，输入样本和数据库中每个类别的模版进行比较,例如求相关或距离，根据相似性(相关性或距离)大小进行决策"
+        },
+        "elementId": "16"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 15,
+            "start": 0,
+            "end": 16,
+            "type": "基本方法",
+            "properties": {
+
+            },
+            "elementId": "15",
+            "startNodeElementId": "0",
+            "endNodeElementId": "16"
+          },
+          "end": {
+            "identity": 16,
+            "labels": [
+              "knowledge"
+            ],
+            "properties": {
+              "disadvantage": "适应性差",
+              "advantage": "直接,简单",
+              "name": "模版匹配法",
+              "content": " 首先对每个类别建立一个或多个模版，输入样本和数据库中每个类别的模版进行比较,例如求相关或距离，根据相似性(相关性或距离)大小进行决策"
+            },
+            "elementId": "16"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 17,
+        "labels": [
+          "knowledge"
+        ],
+        "properties": {
+          "disadvantage": "对结构复杂的模式抽取特征困难、不能反映模式的结构特征，难以描述模式的性质、难以从整体角度考虑识别问题",
+          "advantage": "比较成熟、能考虑干扰噪声等影响、识别模式基元能力强",
+          "name": "统计模式识别",
+          "content": "理论基础：概率论，数理统计。主要方法：线性、非线性分类、Bayes决策、聚类分析"
+        },
+        "elementId": "17"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 16,
+            "start": 0,
+            "end": 17,
+            "type": "基本方法",
+            "properties": {
+
+            },
+            "elementId": "16",
+            "startNodeElementId": "0",
+            "endNodeElementId": "17"
+          },
+          "end": {
+            "identity": 17,
+            "labels": [
+              "knowledge"
+            ],
+            "properties": {
+              "disadvantage": "对结构复杂的模式抽取特征困难、不能反映模式的结构特征，难以描述模式的性质、难以从整体角度考虑识别问题",
+              "advantage": "比较成熟、能考虑干扰噪声等影响、识别模式基元能力强",
+              "name": "统计模式识别",
+              "content": "理论基础：概率论，数理统计。主要方法：线性、非线性分类、Bayes决策、聚类分析"
+            },
+            "elementId": "17"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 18,
+        "labels": [
+          "knowledge"
+        ],
+        "properties": {
+          "disadvantage": "当存在干扰及噪声时，抽取特征基元困难，且易失误",
+          "advantage": "1.识别方便，可以从简单的基元开始，由简至繁。2.能反映模式的结构特征，能描述模式的性质。3.对图象畸变的抗干扰能力较强。",
+          "name": "结构模式识别",
+          "content": "采用比较简单的子模式（基元）来描述复杂模式，观察对象表达为一个由基元组成的句子，基元构成模式所遵循的规则即为文法（句法）。理论基础：形式语言，自动机技术。主要方法：自动机技术、CYK剖析算法、Early算法、转移图法"
+        },
+        "elementId": "18"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 17,
+            "start": 0,
+            "end": 18,
+            "type": "基本方法",
+            "properties": {
+
+            },
+            "elementId": "17",
+            "startNodeElementId": "0",
+            "endNodeElementId": "18"
+          },
+          "end": {
+            "identity": 18,
+            "labels": [
+              "knowledge"
+            ],
+            "properties": {
+              "disadvantage": "当存在干扰及噪声时，抽取特征基元困难，且易失误",
+              "advantage": "1.识别方便，可以从简单的基元开始，由简至繁。2.能反映模式的结构特征，能描述模式的性质。3.对图象畸变的抗干扰能力较强。",
+              "name": "结构模式识别",
+              "content": "采用比较简单的子模式（基元）来描述复杂模式，观察对象表达为一个由基元组成的句子，基元构成模式所遵循的规则即为文法（句法）。理论基础：形式语言，自动机技术。主要方法：自动机技术、CYK剖析算法、Early算法、转移图法"
+            },
+            "elementId": "18"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 19,
+        "labels": [
+          "knowledge"
+        ],
+        "properties": {
+          "disadvantage": "准确合理的隶属度函数往往难以建立，故限制了它的应用",
+          "advantage": "由于隶属度函数作为样本与模板间相似程度的度量，故往往能反映整体的与主体的特征，从而允许样本有相当程度的干扰与畸变。",
+          "name": "模糊模式识别",
+          "content": "是一种集合运算。用隶属度将模糊集合划分为若干子集， m类就有m个子集，然后根据择近原则分类。理论基础：模糊数学主要方法：模糊统计法、二元对比排序法、推理法、模糊集运算规则、模糊矩阵"
+        },
+        "elementId": "19"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 18,
+            "start": 0,
+            "end": 19,
+            "type": "基本方法",
+            "properties": {
+
+            },
+            "elementId": "18",
+            "startNodeElementId": "0",
+            "endNodeElementId": "19"
+          },
+          "end": {
+            "identity": 19,
+            "labels": [
+              "knowledge"
+            ],
+            "properties": {
+              "disadvantage": "准确合理的隶属度函数往往难以建立，故限制了它的应用",
+              "advantage": "由于隶属度函数作为样本与模板间相似程度的度量，故往往能反映整体的与主体的特征，从而允许样本有相当程度的干扰与畸变。",
+              "name": "模糊模式识别",
+              "content": "是一种集合运算。用隶属度将模糊集合划分为若干子集， m类就有m个子集，然后根据择近原则分类。理论基础：模糊数学主要方法：模糊统计法、二元对比排序法、推理法、模糊集运算规则、模糊矩阵"
+            },
+            "elementId": "19"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 20,
+        "labels": [
+          "knowledge"
+        ],
+        "properties": {
+          "name": "产品质量检验"
+        },
+        "elementId": "20"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 19,
+            "start": 0,
+            "end": 20,
+            "type": "工业应用",
+            "properties": {
+
+            },
+            "elementId": "19",
+            "startNodeElementId": "0",
+            "endNodeElementId": "20"
+          },
+          "end": {
+            "identity": 20,
+            "labels": [
+              "knowledge"
+            ],
+            "properties": {
+              "name": "产品质量检验"
+            },
+            "elementId": "20"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 21,
+        "labels": [
+          "knowledge"
+        ],
+        "properties": {
+          "name": "设备故障检测"
+        },
+        "elementId": "21"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 20,
+            "start": 0,
+            "end": 21,
+            "type": "工业应用",
+            "properties": {
+
+            },
+            "elementId": "20",
+            "startNodeElementId": "0",
+            "endNodeElementId": "21"
+          },
+          "end": {
+            "identity": 21,
+            "labels": [
+              "knowledge"
+            ],
+            "properties": {
+              "name": "设备故障检测"
+            },
+            "elementId": "21"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 22,
+        "labels": [
+          "knowledge"
+        ],
+        "properties": {
+          "name": "智能机器人"
+        },
+        "elementId": "22"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 21,
+            "start": 0,
+            "end": 22,
+            "type": "工业应用",
+            "properties": {
+
+            },
+            "elementId": "21",
+            "startNodeElementId": "0",
+            "endNodeElementId": "22"
+          },
+          "end": {
+            "identity": 22,
+            "labels": [
+              "knowledge"
+            ],
+            "properties": {
+              "name": "智能机器人"
+            },
+            "elementId": "22"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 23,
+        "labels": [
+          "knowledge"
+        ],
+        "properties": {
+          "name": "钱币的自动识伪"
+        },
+        "elementId": "23"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 22,
+            "start": 0,
+            "end": 23,
+            "type": "商业应用",
+            "properties": {
+
+            },
+            "elementId": "22",
+            "startNodeElementId": "0",
+            "endNodeElementId": "23"
+          },
+          "end": {
+            "identity": 23,
+            "labels": [
+              "knowledge"
+            ],
+            "properties": {
+              "name": "钱币的自动识伪"
+            },
+            "elementId": "23"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 24,
+        "labels": [
+          "knowledge"
+        ],
+        "properties": {
+          "name": "信函的自动分拣"
+        },
+        "elementId": "24"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 23,
+            "start": 0,
+            "end": 24,
+            "type": "商业应用",
+            "properties": {
+
+            },
+            "elementId": "23",
+            "startNodeElementId": "0",
+            "endNodeElementId": "24"
+          },
+          "end": {
+            "identity": 24,
+            "labels": [
+              "knowledge"
+            ],
+            "properties": {
+              "name": "信函的自动分拣"
+            },
+            "elementId": "24"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 25,
+        "labels": [
+          "knowledge"
+        ],
+        "properties": {
+          "name": "电话信息查询"
+        },
+        "elementId": "25"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 24,
+            "start": 0,
+            "end": 25,
+            "type": "商业应用",
+            "properties": {
+
+            },
+            "elementId": "24",
+            "startNodeElementId": "0",
+            "endNodeElementId": "25"
+          },
+          "end": {
+            "identity": 25,
+            "labels": [
+              "knowledge"
+            ],
+            "properties": {
+              "name": "电话信息查询"
+            },
+            "elementId": "25"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 26,
+        "labels": [
+          "knowledge"
+        ],
+        "properties": {
+          "name": "声控拨号"
+        },
+        "elementId": "26"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 25,
+            "start": 0,
+            "end": 26,
+            "type": "商业应用",
+            "properties": {
+
+            },
+            "elementId": "25",
+            "startNodeElementId": "0",
+            "endNodeElementId": "26"
+          },
+          "end": {
+            "identity": 26,
+            "labels": [
+              "knowledge"
+            ],
+            "properties": {
+              "name": "声控拨号"
+            },
+            "elementId": "26"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 27,
+        "labels": [
+          "knowledge"
+        ],
+        "properties": {
+          "name": "对心电、脑电、CT等信号进行处理和识别"
+        },
+        "elementId": "27"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 26,
+            "start": 0,
+            "end": 27,
+            "type": "医学应用",
+            "properties": {
+
+            },
+            "elementId": "26",
+            "startNodeElementId": "0",
+            "endNodeElementId": "27"
+          },
+          "end": {
+            "identity": 27,
+            "labels": [
+              "knowledge"
+            ],
+            "properties": {
+              "name": "对心电、脑电、CT等信号进行处理和识别"
+            },
+            "elementId": "27"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 28,
+        "labels": [
+          "knowledge"
+        ],
+        "properties": {
+          "name": "生理特征鉴别"
+        },
+        "elementId": "28"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 27,
+            "start": 0,
+            "end": 28,
+            "type": "安全应用",
+            "properties": {
+
+            },
+            "elementId": "27",
+            "startNodeElementId": "0",
+            "endNodeElementId": "28"
+          },
+          "end": {
+            "identity": 28,
+            "labels": [
+              "knowledge"
+            ],
+            "properties": {
+              "name": "生理特征鉴别"
+            },
+            "elementId": "28"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 29,
+        "labels": [
+          "knowledge"
+        ],
+        "properties": {
+          "name": "网上电子商务的身份确认"
+        },
+        "elementId": "29"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 28,
+            "start": 0,
+            "end": 29,
+            "type": "安全应用",
+            "properties": {
+
+            },
+            "elementId": "28",
+            "startNodeElementId": "0",
+            "endNodeElementId": "29"
+          },
+          "end": {
+            "identity": 29,
+            "labels": [
+              "knowledge"
+            ],
+            "properties": {
+              "name": "网上电子商务的身份确认"
+            },
+            "elementId": "29"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 30,
+        "labels": [
+          "knowledge"
+        ],
+        "properties": {
+          "name": "对公安对象的刑侦和鉴别"
+        },
+        "elementId": "30"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 29,
+            "start": 0,
+            "end": 30,
+            "type": "安全应用",
+            "properties": {
+
+            },
+            "elementId": "29",
+            "startNodeElementId": "0",
+            "endNodeElementId": "30"
+          },
+          "end": {
+            "identity": 30,
+            "labels": [
+              "knowledge"
+            ],
+            "properties": {
+              "name": "对公安对象的刑侦和鉴别"
+            },
+            "elementId": "30"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 31,
+        "labels": [
+          "knowledge"
+        ],
+        "properties": {
+          "name": "巡航导弹景物识别"
+        },
+        "elementId": "31"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 30,
+            "start": 0,
+            "end": 31,
+            "type": "军事应用",
+            "properties": {
+
+            },
+            "elementId": "30",
+            "startNodeElementId": "0",
+            "endNodeElementId": "31"
+          },
+          "end": {
+            "identity": 31,
+            "labels": [
+              "knowledge"
+            ],
+            "properties": {
+              "name": "巡航导弹景物识别"
+            },
+            "elementId": "31"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 32,
+        "labels": [
+          "knowledge"
+        ],
+        "properties": {
+          "name": "战斗单元的敌我识别"
+        },
+        "elementId": "32"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 31,
+            "start": 0,
+            "end": 32,
+            "type": "军事应用",
+            "properties": {
+
+            },
+            "elementId": "31",
+            "startNodeElementId": "0",
+            "endNodeElementId": "32"
+          },
+          "end": {
+            "identity": 32,
+            "labels": [
+              "knowledge"
+            ],
+            "properties": {
+              "name": "战斗单元的敌我识别"
+            },
+            "elementId": "32"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 33,
+        "labels": [
+          "knowledge"
+        ],
+        "properties": {
+          "name": "文字识别"
+        },
+        "elementId": "33"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 32,
+            "start": 0,
+            "end": 33,
+            "type": "办公应用",
+            "properties": {
+
+            },
+            "elementId": "32",
+            "startNodeElementId": "0",
+            "endNodeElementId": "33"
+          },
+          "end": {
+            "identity": 33,
+            "labels": [
+              "knowledge"
+            ],
+            "properties": {
+              "name": "文字识别"
+            },
+            "elementId": "33"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 34,
+        "labels": [
+          "knowledge"
+        ],
+        "properties": {
+          "name": "声音识别"
+        },
+        "elementId": "34"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 33,
+            "start": 0,
+            "end": 34,
+            "type": "办公应用",
+            "properties": {
+
+            },
+            "elementId": "33",
+            "startNodeElementId": "0",
+            "endNodeElementId": "34"
+          },
+          "end": {
+            "identity": 34,
+            "labels": [
+              "knowledge"
+            ],
+            "properties": {
+              "name": "声音识别"
+            },
+            "elementId": "34"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 35,
+        "labels": [
+          "organization"
+        ],
+        "properties": {
+          "name": "国际组织"
+        },
+        "elementId": "35"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 34,
+            "start": 0,
+            "end": 35,
+            "type": "研究组织",
+            "properties": {
+
+            },
+            "elementId": "34",
+            "startNodeElementId": "0",
+            "endNodeElementId": "35"
+          },
+          "end": {
+            "identity": 35,
+            "labels": [
+              "organization"
+            ],
+            "properties": {
+              "name": "国际组织"
+            },
+            "elementId": "35"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 36,
+        "labels": [
+          "organization"
+        ],
+        "properties": {
+          "name": "国内组织"
+        },
+        "elementId": "36"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 35,
+            "start": 0,
+            "end": 36,
+            "type": "研究组织",
+            "properties": {
+
+            },
+            "elementId": "35",
+            "startNodeElementId": "0",
+            "endNodeElementId": "36"
+          },
+          "end": {
+            "identity": 36,
+            "labels": [
+              "organization"
+            ],
+            "properties": {
+              "name": "国内组织"
+            },
+            "elementId": "36"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 35,
+        "labels": [
+          "organization"
+        ],
+        "properties": {
+          "name": "国际组织"
+        },
+        "elementId": "35"
+      },
+      "end": {
+        "identity": 37,
+        "labels": [
+          "organization"
+        ],
+        "properties": {
+          "name": "IAPR",
+          "description": "1973年 IEEE发起了第一次关于模式识别的国际会议“ICPR”，成立了国际模式识别协会---“IAPR”，每2年召开一次国际学术会议"
+        },
+        "elementId": "37"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 35,
+            "labels": [
+              "organization"
+            ],
+            "properties": {
+              "name": "国际组织"
+            },
+            "elementId": "35"
+          },
+          "relationship": {
+            "identity": 36,
+            "start": 35,
+            "end": 37,
+            "type": "包含",
+            "properties": {
+
+            },
+            "elementId": "36",
+            "startNodeElementId": "35",
+            "endNodeElementId": "37"
+          },
+          "end": {
+            "identity": 37,
+            "labels": [
+              "organization"
+            ],
+            "properties": {
+              "name": "IAPR",
+              "description": "1973年 IEEE发起了第一次关于模式识别的国际会议“ICPR”，成立了国际模式识别协会---“IAPR”，每2年召开一次国际学术会议"
+            },
+            "elementId": "37"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 35,
+        "labels": [
+          "organization"
+        ],
+        "properties": {
+          "name": "国际组织"
+        },
+        "elementId": "35"
+      },
+      "end": {
+        "identity": 38,
+        "labels": [
+          "organization"
+        ],
+        "properties": {
+          "name": "IEEE",
+          "description": " TC on PAMI (Pattern Analysis and Machine Intelligence) 1977年 IEEE的计算机学会成立了模式分析与机器智能（PAMI）委员会，每2年召开一次模式识别与图象处理学术会议"
+        },
+        "elementId": "38"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 35,
+            "labels": [
+              "organization"
+            ],
+            "properties": {
+              "name": "国际组织"
+            },
+            "elementId": "35"
+          },
+          "relationship": {
+            "identity": 37,
+            "start": 35,
+            "end": 38,
+            "type": "包含",
+            "properties": {
+
+            },
+            "elementId": "37",
+            "startNodeElementId": "35",
+            "endNodeElementId": "38"
+          },
+          "end": {
+            "identity": 38,
+            "labels": [
+              "organization"
+            ],
+            "properties": {
+              "name": "IEEE",
+              "description": " TC on PAMI (Pattern Analysis and Machine Intelligence) 1977年 IEEE的计算机学会成立了模式分析与机器智能（PAMI）委员会，每2年召开一次模式识别与图象处理学术会议"
+            },
+            "elementId": "38"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 36,
+        "labels": [
+          "organization"
+        ],
+        "properties": {
+          "name": "国内组织"
+        },
+        "elementId": "36"
+      },
+      "end": {
+        "identity": 39,
+        "labels": [
+          "organization"
+        ],
+        "properties": {
+          "name": "中国自动化学会:模式识别与机器智能(PRMI)专业委员会",
+          "description": "null"
+        },
+        "elementId": "39"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 36,
+            "labels": [
+              "organization"
+            ],
+            "properties": {
+              "name": "国内组织"
+            },
+            "elementId": "36"
+          },
+          "relationship": {
+            "identity": 38,
+            "start": 36,
+            "end": 39,
+            "type": "包含",
+            "properties": {
+
+            },
+            "elementId": "38",
+            "startNodeElementId": "36",
+            "endNodeElementId": "39"
+          },
+          "end": {
+            "identity": 39,
+            "labels": [
+              "organization"
+            ],
+            "properties": {
+              "name": "中国自动化学会:模式识别与机器智能(PRMI)专业委员会",
+              "description": "null"
+            },
+            "elementId": "39"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 36,
+        "labels": [
+          "organization"
+        ],
+        "properties": {
+          "name": "国内组织"
+        },
+        "elementId": "36"
+      },
+      "end": {
+        "identity": 40,
+        "labels": [
+          "organization"
+        ],
+        "properties": {
+          "name": "中国计算机学会:人工智能与模式识别专业委员会",
+          "description": "null"
+        },
+        "elementId": "40"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 36,
+            "labels": [
+              "organization"
+            ],
+            "properties": {
+              "name": "国内组织"
+            },
+            "elementId": "36"
+          },
+          "relationship": {
+            "identity": 39,
+            "start": 36,
+            "end": 40,
+            "type": "包含",
+            "properties": {
+
+            },
+            "elementId": "39",
+            "startNodeElementId": "36",
+            "endNodeElementId": "40"
+          },
+          "end": {
+            "identity": 40,
+            "labels": [
+              "organization"
+            ],
+            "properties": {
+              "name": "中国计算机学会:人工智能与模式识别专业委员会",
+              "description": "null"
+            },
+            "elementId": "40"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 36,
+        "labels": [
+          "organization"
+        ],
+        "properties": {
+          "name": "国内组织"
+        },
+        "elementId": "36"
+      },
+      "end": {
+        "identity": 41,
+        "labels": [
+          "organization"
+        ],
+        "properties": {
+          "name": "中国人工智能学会",
+          "description": "null"
+        },
+        "elementId": "41"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 36,
+            "labels": [
+              "organization"
+            ],
+            "properties": {
+              "name": "国内组织"
+            },
+            "elementId": "36"
+          },
+          "relationship": {
+            "identity": 40,
+            "start": 36,
+            "end": 41,
+            "type": "包含",
+            "properties": {
+
+            },
+            "elementId": "40",
+            "startNodeElementId": "36",
+            "endNodeElementId": "41"
+          },
+          "end": {
+            "identity": 41,
+            "labels": [
+              "organization"
+            ],
+            "properties": {
+              "name": "中国人工智能学会",
+              "description": "null"
+            },
+            "elementId": "41"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 42,
+        "labels": [
+          "periodical"
+        ],
+        "properties": {
+          "name": "《Pattern Recognition》"
+        },
+        "elementId": "42"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 41,
+            "start": 0,
+            "end": 42,
+            "type": "期刊",
+            "properties": {
+
+            },
+            "elementId": "41",
+            "startNodeElementId": "0",
+            "endNodeElementId": "42"
+          },
+          "end": {
+            "identity": 42,
+            "labels": [
+              "periodical"
+            ],
+            "properties": {
+              "name": "《Pattern Recognition》"
+            },
+            "elementId": "42"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 43,
+        "labels": [
+          "periodical"
+        ],
+        "properties": {
+          "name": "《IEEE Trans》"
+        },
+        "elementId": "43"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 42,
+            "start": 0,
+            "end": 43,
+            "type": "期刊",
+            "properties": {
+
+            },
+            "elementId": "42",
+            "startNodeElementId": "0",
+            "endNodeElementId": "43"
+          },
+          "end": {
+            "identity": 43,
+            "labels": [
+              "periodical"
+            ],
+            "properties": {
+              "name": "《IEEE Trans》"
+            },
+            "elementId": "43"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 44,
+        "labels": [
+          "periodical"
+        ],
+        "properties": {
+          "name": "《模式识别与人工智能》"
+        },
+        "elementId": "44"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 43,
+            "start": 0,
+            "end": 44,
+            "type": "期刊",
+            "properties": {
+
+            },
+            "elementId": "43",
+            "startNodeElementId": "0",
+            "endNodeElementId": "44"
+          },
+          "end": {
+            "identity": 44,
+            "labels": [
+              "periodical"
+            ],
+            "properties": {
+              "name": "《模式识别与人工智能》"
+            },
+            "elementId": "44"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 45,
+        "labels": [
+          "periodical"
+        ],
+        "properties": {
+          "name": "《中国图像与图形学学报》"
+        },
+        "elementId": "45"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 44,
+            "start": 0,
+            "end": 45,
+            "type": "期刊",
+            "properties": {
+
+            },
+            "elementId": "44",
+            "startNodeElementId": "0",
+            "endNodeElementId": "45"
+          },
+          "end": {
+            "identity": 45,
+            "labels": [
+              "periodical"
+            ],
+            "properties": {
+              "name": "《中国图像与图形学学报》"
+            },
+            "elementId": "45"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 46,
+        "labels": [
+          "periodical"
+        ],
+        "properties": {
+          "name": "ICPR",
+          "time": "2年一次"
+        },
+        "elementId": "46"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 45,
+            "start": 0,
+            "end": 46,
+            "type": "会议",
+            "properties": {
+
+            },
+            "elementId": "45",
+            "startNodeElementId": "0",
+            "endNodeElementId": "46"
+          },
+          "end": {
+            "identity": 46,
+            "labels": [
+              "periodical"
+            ],
+            "properties": {
+              "name": "ICPR",
+              "time": "2年一次"
+            },
+            "elementId": "46"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 47,
+        "labels": [
+          "periodical"
+        ],
+        "properties": {
+          "name": "ICCV",
+          "time": "2年一次"
+        },
+        "elementId": "47"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 46,
+            "start": 0,
+            "end": 47,
+            "type": "会议",
+            "properties": {
+
+            },
+            "elementId": "46",
+            "startNodeElementId": "0",
+            "endNodeElementId": "47"
+          },
+          "end": {
+            "identity": 47,
+            "labels": [
+              "periodical"
+            ],
+            "properties": {
+              "name": "ICCV",
+              "time": "2年一次"
+            },
+            "elementId": "47"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 48,
+        "labels": [
+          "periodical"
+        ],
+        "properties": {
+          "name": "CVPR",
+          "time": "1年一次"
+        },
+        "elementId": "48"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 47,
+            "start": 0,
+            "end": 48,
+            "type": "会议",
+            "properties": {
+
+            },
+            "elementId": "47",
+            "startNodeElementId": "0",
+            "endNodeElementId": "48"
+          },
+          "end": {
+            "identity": 48,
+            "labels": [
+              "periodical"
+            ],
+            "properties": {
+              "name": "CVPR",
+              "time": "1年一次"
+            },
+            "elementId": "48"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "subject"
+        ],
+        "properties": {
+          "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+          "use": "语音识别、图像识别等",
+          "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+          "name": "模式识别",
+          "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+        },
+        "elementId": "0"
+      },
+      "end": {
+        "identity": 49,
+        "labels": [
+          "periodical"
+        ],
+        "properties": {
+          "name": " ICDAR",
+          "time": "2年一次"
+        },
+        "elementId": "49"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "subject"
+            ],
+            "properties": {
+              "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+              "use": "语音识别、图像识别等",
+              "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+              "name": "模式识别",
+              "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+            },
+            "elementId": "0"
+          },
+          "relationship": {
+            "identity": 48,
+            "start": 0,
+            "end": 49,
+            "type": "会议",
+            "properties": {
+
+            },
+            "elementId": "48",
+            "startNodeElementId": "0",
+            "endNodeElementId": "49"
+          },
+          "end": {
+            "identity": 49,
+            "labels": [
+              "periodical"
+            ],
+            "properties": {
+              "name": " ICDAR",
+              "time": "2年一次"
+            },
+            "elementId": "49"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  }
+]

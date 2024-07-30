@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Main from '../components/main.vue'
+import Picture from "../components/picture.vue"
 Vue.use(Router)
 
 const routes = [
@@ -17,6 +18,11 @@ const routes = [
     path: '/chat/:talk_id',
     name: 'Main',
     component: Main
+  },
+   {
+    path:'/kg',
+    name:'Picture',
+    component: Picture
   },
 ]
 

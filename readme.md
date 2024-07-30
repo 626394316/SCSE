@@ -73,15 +73,27 @@ pip install -r requirements.txt
 将config.yml中的各项变量换成自己的实际所需
 ~~~
 
-**启动前端页面**
+**配置mysql环境**
 
 ~~~
-cd web_demo
-npm install
-npm run serve
+mysql文件在mysql文件夹中，正常在navicat导入即可
 ~~~
 
-登录账号为admin,密码123456
+**构建neo4j数据库**
+
+~~~
+cd SCSE/data/kg_data
+python build_graph.py
+~~~
+
+**构建向量数据库**
+
+~~~
+cd SCSE/dealFiles
+python common_files.py
+python images_files.py
+python pr_files.py
+~~~
 
 **启动模型**（需要自行配备好lmdeploy环境）
 
@@ -103,26 +115,19 @@ lmdeploy serve api_server your_emo_llm_path \
 **启动后端接口**
 
 ~~~
-cd SCSE/dealFiles
-python common_files.py
-python images_files.py
-python pr_files.py
-cd ..
 python qa_mysql.py
 uvicorn main:app --host 127.0.0.1 --port 7091 --workers 1 --reload
 ~~~
 
-**配置mysql环境**
+**启动前端页面**
 
 ~~~
-mysql文件在mysql文件夹中，正常在navicat导入即可
+cd web_demo
+npm install
+npm run serve
 ~~~
 
-**配置neo4j数据库**
-
-~~~
-尚未开源，还在整理
-~~~
+登录账号为admin,密码123456
 
 ### 💕 特别鸣谢
 

@@ -1,0 +1,648 @@
+﻿[
+  {
+    "n": {
+      "identity": 0,
+      "labels": [
+        "subject"
+      ],
+      "properties": {
+        "purpose": "用机器完成类似于人类智能通过视觉、听觉等感官去识别外界环境所进行的工作",
+        "use": "语音识别、图像识别等",
+        "examRequirement": "平时成绩（到课、作业、实验报告）30% 期末考试 70%",
+        "name": "模式识别",
+        "definition": "研究用数学方法使计算机自动识别事物的一门科学"
+      },
+      "elementId": "0"
+    }
+  },
+  {
+    "n": {
+      "identity": 1,
+      "labels": [
+        "subject"
+      ],
+      "properties": {
+        "learn": "向量、矩阵的基本运算、逆、行列式、特征值、特征向量等",
+        "name": "线性代数"
+      },
+      "elementId": "1"
+    }
+  },
+  {
+    "n": {
+      "identity": 2,
+      "labels": [
+        "subject"
+      ],
+      "properties": {
+        "learn": "概率（先验、条件）、概率密度、随机变量和分布、数学期望、全概率和贝叶斯公式、正态分布、参数估计、假设检验",
+        "name": "概率论与数理统计"
+      },
+      "elementId": "2"
+    }
+  },
+  {
+    "n": {
+      "identity": 3,
+      "labels": [
+        "subject"
+      ],
+      "properties": {
+        "learn": "null",
+        "name": "高等数学"
+      },
+      "elementId": "3"
+    }
+  },
+  {
+    "n": {
+      "identity": 4,
+      "labels": [
+        "subject"
+      ],
+      "properties": {
+        "learn": "null",
+        "name": "最优化方法"
+      },
+      "elementId": "4"
+    }
+  },
+  {
+    "n": {
+      "identity": 5,
+      "labels": [
+        "subject"
+      ],
+      "properties": {
+        "learn": "null",
+        "name": "信息论"
+      },
+      "elementId": "5"
+    }
+  },
+  {
+    "n": {
+      "identity": 6,
+      "labels": [
+        "subject"
+      ],
+      "properties": {
+        "learn": "null",
+        "name": "程序设计基础"
+      },
+      "elementId": "6"
+    }
+  },
+  {
+    "n": {
+      "identity": 7,
+      "labels": [
+        "book"
+      ],
+      "properties": {
+        "publish": "清华大学出版社",
+        "time": "2010年",
+        "bookName": "《模式识别》（第3版)",
+        "autor": "张学工等"
+      },
+      "elementId": "7"
+    }
+  },
+  {
+    "n": {
+      "identity": 8,
+      "labels": [
+        "book"
+      ],
+      "properties": {
+        "publish": "机械工业出版社",
+        "time": "2003年",
+        "bookName": "《模式分类》（第2版）",
+        "autor": "R.O.Duda等著，李宏东等译"
+      },
+      "elementId": "8"
+    }
+  },
+  {
+    "n": {
+      "identity": 9,
+      "labels": [
+        "book"
+      ],
+      "properties": {
+        "publish": "电子工业出版社",
+        "time": "2016年",
+        "bookName": "《模式识别》（第4版）",
+        "autor": "Sergios Theodoridis著，李晶皎译"
+      },
+      "elementId": "9"
+    }
+  },
+  {
+    "n": {
+      "identity": 10,
+      "labels": [
+        "knowledge"
+      ],
+      "properties": {
+        "name": "类别",
+        "content": "具有某些共同特性(模式)样本的集合"
+      },
+      "elementId": "10"
+    }
+  },
+  {
+    "n": {
+      "identity": 11,
+      "labels": [
+        "knowledge"
+      ],
+      "properties": {
+        "name": "特征提取",
+        "content": "采用映射（或变换）实现由模式测量空间向特征空间的转变或者将特征空间的维数从高维变成低维"
+      },
+      "elementId": "11"
+    }
+  },
+  {
+    "n": {
+      "identity": 12,
+      "labels": [
+        "knowledge"
+      ],
+      "properties": {
+        "name": "特征",
+        "content": "用于描述模式性质（特性）的一种定量的概念"
+      },
+      "elementId": "12"
+    }
+  },
+  {
+    "n": {
+      "identity": 13,
+      "labels": [
+        "knowledge"
+      ],
+      "properties": {
+        "name": "模式",
+        "content": "广义地说，存在于时间和空间中可观察的物体，如果我们可以区别它们是否相同或是否相似，都可以称之为模式。模式所指的不是事物本身，而是从事物获得的信息，因此，模式往往表现为具有时间和空间分布的信息。模式的直观特性:可观察性、可区分性、相似性"
+      },
+      "elementId": "13"
+    }
+  },
+  {
+    "n": {
+      "identity": 14,
+      "labels": [
+        "knowledge"
+      ],
+      "properties": {
+        "name": "特征选择",
+        "content": "从一组中挑选最有效的特征以降低维数。"
+      },
+      "elementId": "14"
+    }
+  },
+  {
+    "n": {
+      "identity": 15,
+      "labels": [
+        "knowledge"
+      ],
+      "properties": {
+        "name": "样本",
+        "content": "研究对象的个体"
+      },
+      "elementId": "15"
+    }
+  },
+  {
+    "n": {
+      "identity": 16,
+      "labels": [
+        "knowledge"
+      ],
+      "properties": {
+        "disadvantage": "适应性差",
+        "advantage": "直接,简单",
+        "name": "模版匹配法",
+        "content": " 首先对每个类别建立一个或多个模版，输入样本和数据库中每个类别的模版进行比较,例如求相关或距离，根据相似性(相关性或距离)大小进行决策"
+      },
+      "elementId": "16"
+    }
+  },
+  {
+    "n": {
+      "identity": 17,
+      "labels": [
+        "knowledge"
+      ],
+      "properties": {
+        "disadvantage": "对结构复杂的模式抽取特征困难、不能反映模式的结构特征，难以描述模式的性质、难以从整体角度考虑识别问题",
+        "advantage": "比较成熟、能考虑干扰噪声等影响、识别模式基元能力强",
+        "name": "统计模式识别",
+        "content": "理论基础：概率论，数理统计。主要方法：线性、非线性分类、Bayes决策、聚类分析"
+      },
+      "elementId": "17"
+    }
+  },
+  {
+    "n": {
+      "identity": 18,
+      "labels": [
+        "knowledge"
+      ],
+      "properties": {
+        "disadvantage": "当存在干扰及噪声时，抽取特征基元困难，且易失误",
+        "advantage": "1.识别方便，可以从简单的基元开始，由简至繁。2.能反映模式的结构特征，能描述模式的性质。3.对图象畸变的抗干扰能力较强。",
+        "name": "结构模式识别",
+        "content": "采用比较简单的子模式（基元）来描述复杂模式，观察对象表达为一个由基元组成的句子，基元构成模式所遵循的规则即为文法（句法）。理论基础：形式语言，自动机技术。主要方法：自动机技术、CYK剖析算法、Early算法、转移图法"
+      },
+      "elementId": "18"
+    }
+  },
+  {
+    "n": {
+      "identity": 19,
+      "labels": [
+        "knowledge"
+      ],
+      "properties": {
+        "disadvantage": "准确合理的隶属度函数往往难以建立，故限制了它的应用",
+        "advantage": "由于隶属度函数作为样本与模板间相似程度的度量，故往往能反映整体的与主体的特征，从而允许样本有相当程度的干扰与畸变。",
+        "name": "模糊模式识别",
+        "content": "是一种集合运算。用隶属度将模糊集合划分为若干子集， m类就有m个子集，然后根据择近原则分类。理论基础：模糊数学主要方法：模糊统计法、二元对比排序法、推理法、模糊集运算规则、模糊矩阵"
+      },
+      "elementId": "19"
+    }
+  },
+  {
+    "n": {
+      "identity": 20,
+      "labels": [
+        "knowledge"
+      ],
+      "properties": {
+        "name": "产品质量检验"
+      },
+      "elementId": "20"
+    }
+  },
+  {
+    "n": {
+      "identity": 21,
+      "labels": [
+        "knowledge"
+      ],
+      "properties": {
+        "name": "设备故障检测"
+      },
+      "elementId": "21"
+    }
+  },
+  {
+    "n": {
+      "identity": 22,
+      "labels": [
+        "knowledge"
+      ],
+      "properties": {
+        "name": "智能机器人"
+      },
+      "elementId": "22"
+    }
+  },
+  {
+    "n": {
+      "identity": 23,
+      "labels": [
+        "knowledge"
+      ],
+      "properties": {
+        "name": "钱币的自动识伪"
+      },
+      "elementId": "23"
+    }
+  },
+  {
+    "n": {
+      "identity": 24,
+      "labels": [
+        "knowledge"
+      ],
+      "properties": {
+        "name": "信函的自动分拣"
+      },
+      "elementId": "24"
+    }
+  },
+  {
+    "n": {
+      "identity": 25,
+      "labels": [
+        "knowledge"
+      ],
+      "properties": {
+        "name": "电话信息查询"
+      },
+      "elementId": "25"
+    }
+  },
+  {
+    "n": {
+      "identity": 26,
+      "labels": [
+        "knowledge"
+      ],
+      "properties": {
+        "name": "声控拨号"
+      },
+      "elementId": "26"
+    }
+  },
+  {
+    "n": {
+      "identity": 27,
+      "labels": [
+        "knowledge"
+      ],
+      "properties": {
+        "name": "对心电、脑电、CT等信号进行处理和识别"
+      },
+      "elementId": "27"
+    }
+  },
+  {
+    "n": {
+      "identity": 28,
+      "labels": [
+        "knowledge"
+      ],
+      "properties": {
+        "name": "生理特征鉴别"
+      },
+      "elementId": "28"
+    }
+  },
+  {
+    "n": {
+      "identity": 29,
+      "labels": [
+        "knowledge"
+      ],
+      "properties": {
+        "name": "网上电子商务的身份确认"
+      },
+      "elementId": "29"
+    }
+  },
+  {
+    "n": {
+      "identity": 30,
+      "labels": [
+        "knowledge"
+      ],
+      "properties": {
+        "name": "对公安对象的刑侦和鉴别"
+      },
+      "elementId": "30"
+    }
+  },
+  {
+    "n": {
+      "identity": 31,
+      "labels": [
+        "knowledge"
+      ],
+      "properties": {
+        "name": "巡航导弹景物识别"
+      },
+      "elementId": "31"
+    }
+  },
+  {
+    "n": {
+      "identity": 32,
+      "labels": [
+        "knowledge"
+      ],
+      "properties": {
+        "name": "战斗单元的敌我识别"
+      },
+      "elementId": "32"
+    }
+  },
+  {
+    "n": {
+      "identity": 33,
+      "labels": [
+        "knowledge"
+      ],
+      "properties": {
+        "name": "文字识别"
+      },
+      "elementId": "33"
+    }
+  },
+  {
+    "n": {
+      "identity": 34,
+      "labels": [
+        "knowledge"
+      ],
+      "properties": {
+        "name": "声音识别"
+      },
+      "elementId": "34"
+    }
+  },
+  {
+    "n": {
+      "identity": 35,
+      "labels": [
+        "organization"
+      ],
+      "properties": {
+        "name": "国际组织"
+      },
+      "elementId": "35"
+    }
+  },
+  {
+    "n": {
+      "identity": 36,
+      "labels": [
+        "organization"
+      ],
+      "properties": {
+        "name": "国内组织"
+      },
+      "elementId": "36"
+    }
+  },
+  {
+    "n": {
+      "identity": 37,
+      "labels": [
+        "organization"
+      ],
+      "properties": {
+        "name": "IAPR",
+        "description": "1973年 IEEE发起了第一次关于模式识别的国际会议“ICPR”，成立了国际模式识别协会---“IAPR”，每2年召开一次国际学术会议"
+      },
+      "elementId": "37"
+    }
+  },
+  {
+    "n": {
+      "identity": 38,
+      "labels": [
+        "organization"
+      ],
+      "properties": {
+        "name": "IEEE",
+        "description": " TC on PAMI (Pattern Analysis and Machine Intelligence) 1977年 IEEE的计算机学会成立了模式分析与机器智能（PAMI）委员会，每2年召开一次模式识别与图象处理学术会议"
+      },
+      "elementId": "38"
+    }
+  },
+  {
+    "n": {
+      "identity": 39,
+      "labels": [
+        "organization"
+      ],
+      "properties": {
+        "name": "中国自动化学会:模式识别与机器智能(PRMI)专业委员会",
+        "description": "null"
+      },
+      "elementId": "39"
+    }
+  },
+  {
+    "n": {
+      "identity": 40,
+      "labels": [
+        "organization"
+      ],
+      "properties": {
+        "name": "中国计算机学会:人工智能与模式识别专业委员会",
+        "description": "null"
+      },
+      "elementId": "40"
+    }
+  },
+  {
+    "n": {
+      "identity": 41,
+      "labels": [
+        "organization"
+      ],
+      "properties": {
+        "name": "中国人工智能学会",
+        "description": "null"
+      },
+      "elementId": "41"
+    }
+  },
+  {
+    "n": {
+      "identity": 42,
+      "labels": [
+        "periodical"
+      ],
+      "properties": {
+        "name": "《Pattern Recognition》"
+      },
+      "elementId": "42"
+    }
+  },
+  {
+    "n": {
+      "identity": 43,
+      "labels": [
+        "periodical"
+      ],
+      "properties": {
+        "name": "《IEEE Trans》"
+      },
+      "elementId": "43"
+    }
+  },
+  {
+    "n": {
+      "identity": 44,
+      "labels": [
+        "periodical"
+      ],
+      "properties": {
+        "name": "《模式识别与人工智能》"
+      },
+      "elementId": "44"
+    }
+  },
+  {
+    "n": {
+      "identity": 45,
+      "labels": [
+        "periodical"
+      ],
+      "properties": {
+        "name": "《中国图像与图形学学报》"
+      },
+      "elementId": "45"
+    }
+  },
+  {
+    "n": {
+      "identity": 46,
+      "labels": [
+        "periodical"
+      ],
+      "properties": {
+        "name": "ICPR",
+        "time": "2年一次"
+      },
+      "elementId": "46"
+    }
+  },
+  {
+    "n": {
+      "identity": 47,
+      "labels": [
+        "periodical"
+      ],
+      "properties": {
+        "name": "ICCV",
+        "time": "2年一次"
+      },
+      "elementId": "47"
+    }
+  },
+  {
+    "n": {
+      "identity": 48,
+      "labels": [
+        "periodical"
+      ],
+      "properties": {
+        "name": "CVPR",
+        "time": "1年一次"
+      },
+      "elementId": "48"
+    }
+  },
+  {
+    "n": {
+      "identity": 49,
+      "labels": [
+        "periodical"
+      ],
+      "properties": {
+        "name": " ICDAR",
+        "time": "2年一次"
+      },
+      "elementId": "49"
+    }
+  }
+]
