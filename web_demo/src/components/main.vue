@@ -122,7 +122,7 @@
                 <img
                   src="@/imgs/删除.png"
                   @click="delChatHistory(item)"
-                  v-show="talk_id != 'exam' && talk_id != 'v'"
+                  v-if="talk_id != 'exam' && talk_id != 'v'"
                 />
                 <img
                   src="@/imgs/文本转语音.svg"
@@ -367,7 +367,6 @@ export default {
       this.messages = [];
       this.talk_id = item.talk_id
       if(item.talk_id === "exam"){
-        console.log('aa')
         this.messages=[{
         question: "",
         answer: "将地址改为 http://localhost:8080/kg 可进入模式识别学习闯关地图",
@@ -737,6 +736,7 @@ export default {
         this.$router.push({
           path: `/chat/${item.talk_id}`,
         });
+        this.talk_id = item.talk_id
         axios.get("http://127.0.0.1:7090/get_history").then((res) => {
           this.messages = res.data.filter(
             (item) => item.talk_id == this.$route.params.talk_id
@@ -1077,17 +1077,12 @@ export default {
   opacity: 0.5; /* 降低透明度 */
   cursor: not-allowed; /* 更改鼠标指针样式 */
 }
-.chat_icon {
-  margin-right: 10px;
-  /* padding-right: 50px; */
-}
 .chat_icon img {
   width: 20px;
-  height: 20px; /* 设置容器高度 */
+  height: 20px; 
   margin-top: 10px;
   padding-left: 10px;
-  /* padding-right: 20px; */
-  cursor: pointer; /* 鼠标移上去显示手型 */
+  cursor: pointer; 
 }
 .tts {
   margin-top: 10px;
@@ -1104,7 +1099,7 @@ export default {
 }
 .bot_response {
   background-color: #ffffff;
-  width:840px;
+  width:760px;
   padding-top:16px;
   padding-bottom: 16px;
   padding-left: 30px;
