@@ -1,4 +1,4 @@
-## SCSE 智慧校园的超级入口
+## SCSE（Smart Campus Super Extrance ）智慧校园的超级入口
 
 <div align=center><img src="/assets/logo.png"></div>
 
@@ -13,7 +13,7 @@
 
 #### 构建心理大模型数据集和微调(Fine-tune)
 
-本项目参考[Emollm](https://github.com/SmartFlowAI/EmoLLM/blob/main/generate_data/tutorial.md)构建心理微调数据集，感谢Emollm支持
+本项目参考[EmoLLM](https://github.com/SmartFlowAI/EmoLLM/blob/main/generate_data/tutorial.md)构建心理微调数据集，感谢EmoLLM支持
 
 使用的数据集在ft_datasets文件夹下
 
@@ -31,13 +31,12 @@
 
 #### Agent
 
-Agent是基于[ReAct](https://arxiv.org/abs/2210.03629)范式实现，其核心在于通过整合**推理（Reasoning）与行动（Acting）**的功能，以增强模型在解决复杂任务时的能力，具体包括
+Agent是基于[ReAct](https://arxiv.org/abs/2210.03629)范式实现，其核心在于通过整合 **推理（Reasoning）与行动（Acting）**的功能，以增强模型在解决复杂任务时的能力，具体包括
 
 - **推理(Reasoning)**
 
-  此部分专注于模型的生成推理能力。它基于链式思考（chain-of-thought）的高级提示技术，旨在促使模型在执行任务时能够进行更为深入的思考和逻辑推　　　　　　理。核心要点在于通过这种方法，模型能够在其决策过程中更加有效地跟踪和更新自身的行动策略，并且能够更好地应对在执行过程中可能遇到的各种异常
-  情况。
-
+  此部分专注于模型的生成推理能力。基于链式思考（chain-of-thought）的高级提示技术，旨在促使模型在执行任务时能够进行更为深入的思考和逻辑推理。核心要点在于通过这种方法，模型能够在其决策过程中更加有效地跟踪和更新自身的行动策略，并且能够更好地应对在执行过程中可能遇到的各种异常情况。
+  
 - **行动(Acting)**
 
   此部分强调模型执行具体行动的能力，这些行动允许模型与外部资源（如知识库或环境）互动，从而获得额外的信息。在ReAct框架中，行动的概念超越了模型输出的直接结果，它指的是模型与外部世界交互的更为广泛的行为，包括但不限于信息检索、执行特定任务的步骤等。此定义扩展了模型能力的理解，强调了模型在与外部世界互动时的动态能力和灵活性。
@@ -136,7 +135,7 @@ npm run serve
 - [InternLM](https://github.com/InternLM/InternLM)
 - [xtuner](https://github.com/InternLM/xtuner)
 - [LMDeploy](https://github.com/InternLM/LMDeploy)
-- [Emollm](https://github.com/SmartFlowAI/EmoLLM/blob/main/generate_data/tutorial.md)
+- [EmoLLM](https://github.com/SmartFlowAI/EmoLLM/blob/main/generate_data/tutorial.md)
 
 感谢上海人工智能实验室推出的书生·浦语大模型实战营，为我们的项目提供宝贵的技术指导和强大的算力支持。
 
