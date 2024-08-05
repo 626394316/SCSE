@@ -31,7 +31,7 @@
 
 #### Agent
 
-Agent是基于[ReAct](https://arxiv.org/abs/2210.03629)范式实现，其核心在于通过整合 **推理（Reasoning）与行动（Acting）**的功能，以增强模型在解决复杂任务时的能力，具体包括
+Agent是基于[ReAct](https://arxiv.org/abs/2210.03629)范式实现，其核心在于通过整合**推理（Reasoning）与行动（Acting）**的功能，以增强模型在解决复杂任务时的能力，具体包括
 
 - **推理(Reasoning)**
 
